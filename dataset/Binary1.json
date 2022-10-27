@@ -1,21 +1,18 @@
 {
-	"name": "DelimitedText1",
+	"name": "Binary1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "lnk_Blobstorage",
+			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "DelimitedText",
+		"type": "Binary",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "text.txt",
 				"container": "input"
-			},
-			"columnDelimiter": ",",
-			"escapeChar": "\\",
-			"quoteChar": "\""
-		},
-		"schema": []
+			}
+		}
 	}
 }
