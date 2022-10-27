@@ -1,0 +1,9 @@
+{
+	"name": "Adfactory-Demo-PROD",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "939733e6-66bd-4682-b7fd-7b21d5f9c6a9",
+		"tenantId": "ca42b5b8-5d42-40d8-b44b-a2ce4dc7f8dd"
+	}
+}
